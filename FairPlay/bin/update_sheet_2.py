@@ -55,7 +55,7 @@ def getLicenseValues(dateTo):
     return check_license_arr
 
 def main():
-    dateTo = datetime.strftime(datetime.now() - timedelta(5), '%Y%m%d')
+    dateTo = datetime.strftime(datetime.now() - timedelta(1), '%Y%m%d')
     spreadsheetId = '1TcmtvfiyRDC7mjPbOZNhcIeqBJGqasBf6bA5EnCbUoI'
     rangeName = 'FairPlay!E4:E4' # fairplay 1,2  D4:D4, E4:E4
     valueInputOption = 'USER_ENTERED'
